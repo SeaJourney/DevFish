@@ -1,9 +1,22 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-image: url("assets/background.jpg");
-    background-color: #2b2b2b;
     color: white;
+	background: linear-gradient(-45deg, #b61d1d, #d21bd8, #0f58e0, #00992e);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	height: 100vh;
+}
 
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
 }
 .header {
     text-indent: 25px;
