@@ -1,24 +1,10 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-	background: linear-gradient(-30deg, #811515, #610d64, #092252, #00992e);
-	background-size: 400% 400%;
-	animation: gradient 25s ease infinite;
+	background-color: #2a2a2a;
 	height: 100vh;
     text-shadow:  2px 2px black;
     overflow: hidden;
-}
-
-@keyframes gradient {
-	0% {
-		background-position: 0% 50%;
-	}
-	50% {
-		background-position: 100% 50%;
-	}
-	100% {
-		background-position: 0% 50%;
-	}
 }
 
 .header{
