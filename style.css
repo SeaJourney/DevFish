@@ -1,11 +1,12 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-	background: linear-gradient(-30deg, #b61d1d, #d21bd8, #0f58e0, #00992e);
+	background: linear-gradient(-30deg, #811515, #610d64, #092252, #00992e);
 	background-size: 400% 400%;
 	animation: gradient 25s ease infinite;
 	height: 100vh;
     text-shadow:  2px 2px black;
+    overflow: hidden;
 }
 
 @keyframes gradient {
@@ -20,14 +21,19 @@ body {
 	}
 }
 
-.header {
-    text-indent: 25px;
+.header{
+    /*lel*/
+    background-color: rgba(25,25,25,0.25);
+    text-align: center;
+    vertical-align: middle;
+    padding:5px;
 }
-nav {
-    transform: translate(1000px, -60px);
+.navbar {
+    height: 20px;
 }
-nav a {   
+.navbar a {   
     margin: 25px;
+    margin-top: 0px;
     padding:5px;
     text-emphasis: 10px;
     text-decoration: none;
@@ -36,11 +42,11 @@ nav a {
     border: 1px solid transparent;
 }
 
-nav a:hover {
+.navbar a:hover {
     transition: 100ms;
     border:1px solid white;
     background-color: #2f2f2f;
-    color:wheat;
+    color:lightgray;
 }
 .error {
     position: fixed;
