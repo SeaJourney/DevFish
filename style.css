@@ -1,9 +1,9 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: white;
-	background: linear-gradient(-45deg, #b61d1d, #d21bd8, #0f58e0, #00992e);
+	background: linear-gradient(-45deg, #2e2b2b, #301842, #421344, #4c0755);
 	background-size: 400% 400%;
-	animation: gradient 15s ease infinite;
+	animation: gradient 5s ease infinite;
 	height: 100vh;
 }
 
