@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="x-icon" href="assets/icon.png">
+    <link rel="shortcut icon" href="assets/icon.png" type="image/png">
     <link rel="stylesheet" href="style.css">
     <title>Dev Fish</title>
 </head>
@@ -21,7 +21,10 @@
             </div>
         </div>
         <div class="content">
-            
+            <div class="base64">
+                <textarea onkeyup="base64()" placeholder="Convert to Base64" id="b64in" rows="5" cols="100"></textarea>
+                <p id="b64out" style="max-width: 500px; white-space: initial;"></p>
+            </div>
         </div>
     </div>
     <script src="script.js"></script>
